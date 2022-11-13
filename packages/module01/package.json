@@ -20,5 +20,5 @@
     "test": "node ./__tests__/module01.test.js"
   },
   "keywords": [],
-  "gitHead": "04051138d3048dd8f36eb59285de8754f1c68379"
+  "gitHead": "e19e477d8786790decced06646187e9f37400f19"
 }
