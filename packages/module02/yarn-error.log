@@ -1,0 +1,58 @@
+Arguments: 
+  /Users/sxl/.nvm/versions/node/v18.1.0/bin/node /Users/sxl/.nvm/versions/node/v18.1.0/lib/node_modules/yarn/lib/cli.js add module01
+
+PATH: 
+  /Users/sxl/.nvm/versions/node/v18.1.0/bin:/Users/sxl/.nvm/versions/node/v18.1.0/bin:/usr/local/bin:/usr/local/sbin:~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/sxl/.nvm/versions/node/v18.1.0/bin:/usr/local/sbin:~/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/sxl/devtools/apache-maven-3.8.6/bin:/usr/local/mysql/bin:/Users/sxl/.yarn/bin:/Users/sxl/devtools/apache-maven-3.8.6/bin:/usr/local/mysql/bin:/Users/sxl/.yarn/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.1.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.npmmirror.com/module01: [NOT_FOUND] module01 not found
+      at params.callback [as _callback] (/Users/sxl/.nvm/versions/node/v18.1.0/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/Users/sxl/.nvm/versions/node/v18.1.0/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/Users/sxl/.nvm/versions/node/v18.1.0/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:527:28)
+      at Gunzip.<anonymous> (/Users/sxl/.nvm/versions/node/v18.1.0/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:641:28)
+      at Gunzip.emit (node:events:527:28)
+      at endReadableNT (node:internal/streams/readable:1344:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "module02",
+    "version": "0.0.2",
+    "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+    "keywords": [],
+    "author": "sxl <sxl13694658890@163.com>",
+    "license": "ISC",
+    "main": "lib/module02.js",
+    "directories": {
+      "lib": "lib",
+      "test": "__tests__"
+    },
+    "files": [
+      "lib"
+    ],
+    "publishConfig": {
+      "registry": "https://registry.npmmirror.com/"
+    },
+    "scripts": {
+      "test": "node ./__tests__/module02.test.js"
+    },
+    "gitHead": "04051138d3048dd8f36eb59285de8754f1c68379"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
