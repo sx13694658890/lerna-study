@@ -19,5 +19,6 @@
   "scripts": {
     "test": "node ./__tests__/module01.test.js"
   },
-  "keywords": []
+  "keywords": [],
+  "gitHead": "75509bb773b2c5cae75b64dbddfebdeba134a866"
 }
